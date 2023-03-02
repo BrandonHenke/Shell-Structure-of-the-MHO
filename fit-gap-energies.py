@@ -120,9 +120,9 @@ def main():
 
 	# β_p = results_p["x"]
 	# β_n = np.array([1.,0.04020713,0.03865545])
-	print("Proton Params:",β_p[1:])
+	print("Proton Params (κ,μ'):",β_p[1:])
 	print("Proton Param Uncertainties:",np.sqrt(np.diag(C_p)))
-	print("Neutron Params:",β_n[1:])
+	print("Neutron Params (κ,μ'):",β_n[1:])
 	print("Neutron Param Uncertainties:",np.sqrt(np.diag(C_n)))
 	X_p = X_Gaps(Z,N,β_p,"p")
 	X_n = X_Gaps(Z,N,β_n,"n")
