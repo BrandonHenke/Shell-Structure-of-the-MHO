@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "shell-structure-of-the-mho"
+version = "0.1.0"
+description = ""
+authors = ["Brandon Henke <brandon.henke3@gmail.com>"]
+readme = "README.md"
+packages = [{include = "shell_structure_of_the_mho"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+matplotlib = "^3.6.3"
+scipy = "^1.10.0"
+pandas = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
